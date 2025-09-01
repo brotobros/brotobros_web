@@ -49,11 +49,11 @@ export default function Header() {
             >
                 <header
                     className={`w-full mx-auto py-3 px-6 shadow md:rounded-full 
-          transition-all duration-500 ease-in-out
-          ${isAtTop
-                            ? "border-none bg-transparent xl:max-w-screen-xl"
-                            : "md:border border-gray-200 backdrop-blur-lg bg-white/10 lg:max-w-screen-md"
-                        }`}
+                    transition-all duration-500 ease-in-out
+                    ${isAtTop
+                    ? "border-none bg-transparent xl:max-w-screen-xl"
+                    : "md:border border-gray-200 backdrop-blur-lg bg-white/10 lg:max-w-screen-md"
+                    }`}
                 >
                     <div className="px-4">
                         <div className="flex items-center justify-between">
@@ -61,7 +61,7 @@ export default function Header() {
                                 <Link href="/" className="flex items-center">
                                     <Image
                                         src="/images/logo-white.png"
-                                        alt="Falcon Group Full Logo"
+                                        alt="Brotobros Logo"
                                         width={80}
                                         height={50}
                                         className={`absolute top-0 left-0 object-contain transition-opacity duration-500 ease-in-out ${isAtTop ? "opacity-100" : "hidden"}`}
@@ -69,7 +69,7 @@ export default function Header() {
                                     {/* Small logo (scrolled) */}
                                     <Image
                                         src="/images/logo.png"
-                                        alt="Falcon Group Logo"
+                                        alt="Brotobros Logo"
                                         width={25}
                                         height={25}
                                         className={`absolute top-0 left-0 object-contain transition-opacity duration-500 ease-in-out ${isAtTop ? "hidden" : "opacity-100"}`}
